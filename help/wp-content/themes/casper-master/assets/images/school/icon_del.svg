@@ -1,0 +1,16 @@
+<svg id="icon_del" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dcdcdc;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_2" data-name="椭圆 2" class="cls-1" cx="25" cy="25" r="25"/>
+  <path id="del" class="cls-2" d="M2105.21,962l6.37,6.364a2,2,0,0,1-2.83,2.828l-6.37-6.364-6.36,6.364a2,2,0,0,1-2.83-2.828l6.37-6.364-6.37-6.364a2,2,0,0,1,2.83-2.828l6.36,6.364,6.37-6.364a2,2,0,0,1,2.83,2.828Z" transform="translate(-2077 -937)"/>
+</svg>

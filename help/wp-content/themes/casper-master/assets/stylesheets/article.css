@@ -1,0 +1,36 @@
+.hentry:after,
+.site-head:after {
+  display: none;
+}
+.article-wrap {
+  max-width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: -170px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.post-header {
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 30px;
+}
+.post-content p > img {
+  padding: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.more-link {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+}
+.more-link:hover {
+  color: #333;
+}
+.post-list-header {
+  text-align: left;
+  border-bottom: 0;
+}
