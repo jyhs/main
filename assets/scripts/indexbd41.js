@@ -21,7 +21,12 @@ webpackJsonp([0], {
 		n(2), n(6), n(0), n(3);
 		var i = window.jwplayer,
             o = document.querySelector("#indexHeaderPlay"),
-            qr = document.querySelector("#indexHeaderQr"),
+			qr = document.querySelector("#indexHeaderQr"),
+			card = document.querySelector("#card"),
+			shop = document.querySelector("#shop"),
+			service = document.querySelector("#service"),
+			soondiv = document.querySelector("#soon"),
+			soonClose = document.querySelector("#soonClose"),
             qrdiv = document.querySelector("#indexQr"),
             qrClose = document.querySelector("#indexQrClose"),
 			r = document.querySelector("#indexVideoClose"),
@@ -31,7 +36,19 @@ webpackJsonp([0], {
 			file: "http://oss1.juhaoke.com/offical/video/juhaoke.720p.mp4",
 			width: "100%",
 			height: "100%"
-        });
+		});
+		card.addEventListener("click", function(e) {
+			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
+		}),
+		shop.addEventListener("click", function(e) {
+			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
+		}),
+		service.addEventListener("click", function(e) {
+			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
+		}),
+		soonClose.addEventListener("click", function(e) {
+			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "none"
+		}),
         qr.addEventListener("click", function(e) {
 			if(browser.versions.mobile){
 				window.location.href='http://mobile.coral123.com';
