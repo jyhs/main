@@ -270,9 +270,9 @@
   background-size: 100%;
 }
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 501px) {
-  .indexHeaderWorkbench:before {
+  /* .indexHeaderWorkbench:before {
     background-image: url(../images/home_banner_image%402x41b0.png?aa0bbc);
-  }
+  } */
 }
 @media screen and (max-width: 1100px) {
   .indexHeader {
