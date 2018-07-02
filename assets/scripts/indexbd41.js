@@ -33,28 +33,28 @@ webpackJsonp([0], {
 			a = document.querySelector("#indexVideo");
 		i.key = "xzkK4MC3J1+eAy2KN2mdPEAIAjnuxi8g208upw==";
 		var s = i("indexVideoPlayer").setup({
-			file: "http://oss1.juhaoke.com/offical/video/juhaoke.720p.mp4",
+			file: "http://www.huanjiaohu.com/image/kouhao.mp4",
 			width: "100%",
 			height: "100%"
 		});
 		card.addEventListener("click", function(e) {
-			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
+			// e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
 		}),
 		shop.addEventListener("click", function(e) {
-			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
+			// e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
 		}),
 		service.addEventListener("click", function(e) {
-			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
+			// e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "block"
 		}),
 		soonClose.addEventListener("click", function(e) {
 			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), soondiv.style.display = "none"
 		}),
         qr.addEventListener("click", function(e) {
-			if(browser.versions.mobile){
-				window.location.href='http://mobile.coral123.com';
-			}else{
-				e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), qrdiv.style.display = "block"
-			}
+			// if(browser.versions.mobile){
+			// 	window.location.href='http://www.coral123.com';
+			// }else{
+			// 	e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), qrdiv.style.display = "block"
+			// }
         }),
         qrClose.addEventListener("click", function(e) {
 			e.preventDefault && e.preventDefault(), e.stopPropagation && e.stopPropagation(), qrdiv.style.display = "none"

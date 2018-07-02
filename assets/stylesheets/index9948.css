@@ -340,7 +340,7 @@
 }
 @media screen and (max-width: 580px) and (-webkit-min-device-pixel-ratio: 2) {
   .indexHeaderWorkbench:before {
-    background-image: url(../images/home_banner_image_medium%402x6947.png?a93c9e);
+    background-image: url(../images/home_banner_image_medium.png?a93c9e);
   }
 }
 @media screen and (max-width: 580px) and (-webkit-min-device-pixel-ratio: 3) {
