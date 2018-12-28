@@ -33,7 +33,7 @@ webpackJsonp([0], {
 			a = document.querySelector("#indexVideo");
 		i.key = "xzkK4MC3J1+eAy2KN2mdPEAIAjnuxi8g208upw==";
 		var s = i("indexVideoPlayer").setup({
-			file: "http://www.huanjiaohu.com/image/kouhao.mp4",
+			file: "https://static.huanjiaohu.com/image/kouhao.mp4",
 			width: "100%",
 			height: "100%"
 		});
